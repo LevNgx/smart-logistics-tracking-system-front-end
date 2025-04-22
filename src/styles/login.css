@@ -45,6 +45,7 @@ body {
   .login-form button {
     padding: 10px 20px;
     background-color: #007aff;
+    border-color: #007aff;
     border: none;
     color: white;
     font-weight: bold;
@@ -87,4 +88,14 @@ body {
       cursor: not-allowed;
       border: none;
   }
+
+  .error-message {
+    color: #fff;
+    background-color: #e63946;
+    padding: 12px;
+    border-radius: 6px;
+    margin-bottom: 1rem;
+    text-align: center;
+  }
+  
   
